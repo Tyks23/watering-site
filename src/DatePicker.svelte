@@ -95,9 +95,9 @@
     <p id="watering">{wateringVar}</p>
     <p>{selected.toDateString()}</p>
     {#if wateringBool}
-    <img src="https://www.engledow.com/wp-content/uploads/2018/06/Watering-Garden-e1528137712132-300x200.jpg" />
+    <img src="https://www.engledow.com/wp-content/uploads/2018/06/Watering-Garden-e1528137712132-300x200.jpg" style="width:400px;"/>
     {:else}
-    <img src="https://static.wixstatic.com/media/e7a85a_98522c9b461d47e1b24f89b8f3834c24~mv2.jpg/v1/fill/w_800,h_619,al_c,q_90/file.jpg" />
+    <img src="https://static.wixstatic.com/media/e7a85a_98522c9b461d47e1b24f89b8f3834c24~mv2.jpg/v1/fill/w_800,h_619,al_c,q_90/file.jpg" style="width:400px;"/>
     {/if}
   </div>
   

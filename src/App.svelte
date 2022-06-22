@@ -7,7 +7,12 @@
 	  currentDate = d.detail;
 	};
   </script>
-  <DatePicker
+ 	<div>
+		<img src="https://i.giphy.com/media/8cMMs939wIlDWO8pB7/giphy.webp" style="height: 200px;"/>
+	</div>
+  <div class="container">
+	<img src="https://media0.giphy.com/media/l0IpXgEBZ3y3UEljO/giphy.gif?cid=790b76118045ca2188432fc26b6a36dff35b3719447e067d&rid=giphy.gif&ct=s" />
+	<DatePicker
 	on:datechange={onDateChange}
 	selected={currentDate}
 	isAllowed={date => {
@@ -16,6 +21,17 @@
 	  if (millisecs > Date.now() + 3600 * 24 * 45 * 1000) return false;
 	  return true;
 	}} />
+	<img src="https://media0.giphy.com/media/l0IpXgEBZ3y3UEljO/giphy.gif?cid=790b76118045ca2188432fc26b6a36dff35b3719447e067d&rid=giphy.gif&ct=s" />
+	</div>
+	<img src="https://i.giphy.com/media/1PdgEaPoXb5CdZtaiv/200w.webp" />
+	<img src="https://i.giphy.com/media/1PdgEaPoXb5CdZtaiv/200w.webp" />
+	<img src="https://i.giphy.com/media/1PdgEaPoXb5CdZtaiv/200w.webp" />
+	<img src="https://i.giphy.com/media/1PdgEaPoXb5CdZtaiv/200w.webp" />
+	<img src="https://i.giphy.com/media/1PdgEaPoXb5CdZtaiv/200w.webp" />
+	<img src="https://i.giphy.com/media/1PdgEaPoXb5CdZtaiv/200w.webp" />
+	<img src="https://i.giphy.com/media/1PdgEaPoXb5CdZtaiv/200w.webp" />
+	<img src="https://i.giphy.com/media/1PdgEaPoXb5CdZtaiv/200w.webp" />
+	<img src="https://i.giphy.com/media/1PdgEaPoXb5CdZtaiv/200w.webp" />
   
   <!--
 	// setInterval(() => {
@@ -30,3 +46,18 @@
 	// };
   -->
   
+  <style>
+
+	.container{
+		display:flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		background-color: rgb(197, 104, 199);
+		align-items: center;
+		padding: 5px;
+		border-radius: 10%;
+		color:rgb(73, 9, 86);
+	}
+  </style>
